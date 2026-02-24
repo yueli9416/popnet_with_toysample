@@ -92,7 +92,7 @@ def main():
     A = csr_matrix((bits, (src, tgt)), shape=(N, N), dtype=np.uint64)
     A.sum_duplicates()
 
-    # --- optional symmetrization ---
+    # ---  symmetrization ---
     if args.symmetrize:
         AT = A.transpose().tocsr()
         A = A.maximum(AT)
@@ -112,4 +112,5 @@ def main():
 
 
 if __name__ == "__main__":
+
     main()
