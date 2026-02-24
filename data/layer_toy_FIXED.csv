@@ -1,0 +1,17 @@
+layer,label,group,binary,label_long
+work,work,work,1,work
+school,school,school,2,school
+cousin,cousin,family,4,cousin
+child,child,family,8,child
+aunt / uncle,aunt / uncle,family,16,aunt / uncle
+household,household,household,32,household
+parent,parent,family,64,parent
+neighbor,neighbor,neighbors,128,neighbor
+niece / nephew,niece / nephew,family,256,niece / nephew
+mother / father-in-law,parent-in-law,family,512,mother / father-in-law
+sister / brother-in-law,sibling-in-law,family,1024,sister / brother-in-law
+grandchild,grandchild,family,2048,grandchild
+daughter / son-in-law,child-in-law,family,4096,daughter / son-in-law
+sibling,sibling,family,8192,sibling
+grandparent,grandparent,family,16384,grandparent
+partner,partner,household,32768,partner
